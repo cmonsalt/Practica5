@@ -1,0 +1,69 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+ main{
+    margin: 0px;
+    padding: 0px;
+ }
+
+ .container{
+     background-image: url('https://www.reasonwhy.es/sites/default/files/estadio-futbol-vacio-limitacion-aforo-eventos-deportivos-coronavirus.jpg');
+     width: 100%;
+     height: 100vh;
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: auto 120%;
+    }
+
+    .container .row{
+        width: 100%;
+        height: 100vh;
+        background-color: rgba(0,0,0, 0.5);
+
+    }
+
+    .container .row .col{
+        width: 60%;
+        height: 60vh;
+        padding-top: 20%;
+        margin-left: 150px;
+    }
+
+    .container .row .col h2{
+        color: orange;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 1.1rem;
+        margin-top: 0px;
+        transition: ease-in-out 0.5s;
+       }
+
+      .container .row .col h2:hover{
+       transform: scaleX(1.2);
+    }
+
+    .container .row .col p{
+       color: bisque;
+       font-size: 2.5rem;
+       margin-top: 0px;
+    }
+
+    .container .row .col button{
+        width: 20%;
+        border-radius: 20px;
+        border: none;
+        padding: 10px;
+        color: rgb(43, 39, 39)
+        transition: all 0.5s;
+    }
+
+    .container .row .col button:hover{
+        background-color:rgb(13, 161, 70);
+        color: beige;
+        transform: scale3d(2.5, 1.2, 0.3);
+        cursor: pointer;
+    }
+
+
+
+
